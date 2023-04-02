@@ -1,0 +1,563 @@
+@import url("reset.css");
+
+/* font-family: 'Montserrat';*/
+html body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  background: #f5f5f5;
+  color: #161616;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* ........HEADER................................................... */
+.header {
+  background: #81a36b;
+  padding: 20px 0;
+}
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.headercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_buttons {
+  display: flex;
+  gap: 90px;
+  color: #161616;
+  text-decoration: none;
+}
+.header_buttons a {
+  text-decoration: none;
+  color: #161616;
+}
+
+.header_buttons a:hover {
+  color: fuchsia;
+}
+
+/* ..................SECTION 1............................................... */
+.container .section1_text {
+  max-width: 1140px;
+  margin: 0 auto;
+  flex: 1 1 50%;
+}
+
+.container {
+  box-sizing: border-box;
+  align-items: center;
+  gap: 30px;
+}
+.buttons_section1 {
+  padding-top: 40px;
+}
+.section1 .container {
+  display: flex;
+  text-align: center;
+}
+
+.logo_title {
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 67px;
+  color: #000000;
+  padding-bottom: 60px;
+}
+.foto1 {
+  height: 670px;
+  flex: 1 1 50%;
+}
+.foto1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button {
+  font-size: 0;
+  cursor: pointer;
+  color: black;
+  background-color: #81a36b;
+  font-size: 18px;
+  border: none;
+  padding: 8px 22px 9px;
+}
+
+.ord_fl {
+  display: inline-block;
+  font-size: 0;
+}
+
+.help_fl {
+  margin-left: 30px;
+  display: inline-block;
+  color: black;
+  font-size: 18px;
+  border: #81a36b;
+}
+
+.help_fl a {
+  box-sizing: border-box;
+  color: black;
+  font-size: 18px;
+  border: 1px solid #81a36b;
+  text-decoration: none;
+  padding: 8px 22px;
+}
+
+/* .............SECTION 2............................................... */
+
+.container2 {
+  padding-bottom: 120px;
+  box-sizing: border-box;
+}
+
+.section2 {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 120px;
+  font-family: "Vetrino";
+  text-align: center;
+}
+
+.about_us {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 34px;
+  color: #000000;
+  padding-bottom: 60px;
+}
+
+.section2_text p {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #161616;
+}
+
+/* ........SECTION  3 PRICE............................................... */
+
+.container3 {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.price {
+  background: #81a36b;
+}
+
+.price-box {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.price {
+  font-family: "Montserrat";
+  padding: 80px 0;
+}
+/* .................SECTION 4.............................................................*/
+
+.container4 {
+  box-sizing: border-box;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  padding-top: 120px;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.container4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.howtoworktitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 67px;
+  color: #000000;
+}
+.foto2 {
+  flex: 1 1 50%;
+  height: 560px;
+}
+
+.work4 {
+  flex: 1 1 50%;
+}
+/* ............SECTION 5.............................................................*/
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.container5 {
+  padding-bottom: 120px;
+}
+.ourworks {
+  text-align: center;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 34px;
+  padding: 120px 0;
+}
+.work-cards {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+}
+
+.workcard {
+  background: #81a36b;
+  padding: 15px 15px 95px;
+  flex: 1 1 30%;
+}
+
+/* ........FOOTER................................................... */
+.footer {
+  background: #81a36b;
+  padding: 60px 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.flex-container h3 {
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.footer-contact a {
+  color: #161616;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-contact ul > li + li {
+  margin-top: 20px;
+}
+
+.link-social svg {
+  width: 24px;
+  height: 24px;
+  fill: black;
+}
+.footer-social ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.footer-year {
+  text-align: center;
+  font-family: "Montserrat" sans-serif;
+}
+
+/* ________HEADER_______________________________ */
+
+@media screen and (max-width: 1140px) {
+  body {
+    font-size: 16px;
+  }
+  .header_buttons {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  body {
+    font-size: 14px;
+  }
+  .header_buttons {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .header_buttons {
+    display: none;
+  }
+}
+
+/* ________________SECTION1______________________________ */
+
+@media screen and (max-width: 1140px) {
+  .logo_title {
+    font-size: 50px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .help_fl a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  .logo_title {
+    font-size: 40px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .help_fl a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .logo_title {
+    font-size: 35px;
+  }
+  .logo_title p {
+    font-size: 14px;
+  }
+  .button {
+    font-size: 14px;
+  }
+  .help_fl a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .logo_title {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .logo_title p {
+    font-size: 12px;
+  }
+  .button {
+    font-size: 12px;
+  }
+  .help_fl a {
+    font-size: 12px;
+  }
+  .foto1 img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .section1 .container {
+    flex-direction: column;
+  }
+  .section1_text p {
+    font-size: 10px;
+  }
+}
+
+/* ______________________SECTION2___________________________________ */
+
+@media screen and (max-width: 1140px) {
+  .about_us {
+    font-size: 25px;
+  }
+  .section2_text p {
+    font-size: 16px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  .container2 {
+    padding-top: 14px;
+  }
+
+  .about_us {
+    font-size: 25px;
+  }
+  .section2_text p {
+    font-size: 14px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .about_us {
+    font-size: 20px;
+  }
+  .section2_text p {
+    font-size: 14px;
+    justify-content: center;
+  }
+  .section2 {
+    padding-top: 80px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .container2 {
+    padding-bottom: 80px;
+  }
+  .about_us {
+    font-size: 14px;
+  }
+  .section2_text p {
+    font-size: 14px;
+    justify-content: center;
+  }
+}
+
+/* __________SECTION 3 PRICE_____________________________ */
+
+@media screen and (max-width: 600px) {
+  .container3 .price-box {
+    flex-wrap: wrap;
+    flex: 1 1 30%;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .container3 .price-box {
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+  }
+}
+
+/* _________SECTION 4___________________________ */
+
+@media screen and (max-width: 1140px) {
+  .howtoworktitle {
+    font-size: 28px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  .howtoworktitle {
+    font-size: 25px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .howtoworktitle {
+    font-size: 20px;
+    line-height: 45px;
+  }
+  .foto2 img {
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .howtoworktitle {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+
+  .foto2 img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .container4 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 370px) {
+  .howtoworktitle {
+    font-size: 12px;
+    padding-bottom: 20px;
+    line-height: 12px;
+  }
+  .foto2 {
+    height: 300px;
+    object-fit: cover;
+  }
+  .foto2 .container4 {
+    flex-direction: column;
+  }
+}
+
+/* _________SECTION 5._______________________________ ___________*/
+
+@media screen and (max-width: 1140px) {
+  .ourworks {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .work-cards {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  .ourworks {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .ourworks {
+    font-size: 22px;
+    line-height: 20px;
+  }
+ 
+}
+
+@media screen and (max-width: 860px) {
+  .ourworks {
+    font-size: 22px;
+    line-height: 15px;
+  }
+}
+
+/* ________FOOTER____________________________ */
+
+
+@media screen and (max-width: 530px) {
+  .flex-container h3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .flex-container h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer-logo img {
+    width: 100px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .flex-container h3 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .footer-logo img {
+    width: 80px;
+    height: 30px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  .footer-contact ul {
+    margin-right: 20px;
+  }
+}
